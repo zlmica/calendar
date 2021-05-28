@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="month"></div>
+        <div class="day"></div>
+    </div>
+    
+    <div class="calendar">
+        <div class="title">
+            <h1 class="theme" id="calendar-title">月</h1>
+            <h2 class="theme small" id="calendar-year">年</h2>
+            <a id="prev">上月</a>
+            <a id="next">下月</a>
+        </div>
+        <div class="body">
+            <div class="lightgrey body-list">
+                <ul>
+                    <li class="darkgrey">周一</li>
+                    <li class="darkgrey">周二</li>
+                    <li class="darkgrey">周三</li>
+                    <li class="darkgrey">周四</li>
+                    <li class="darkgrey">周五</li>
+                    <li>周六</li>
+                    <li>周日</li>
+                </ul>
+            </div>
+            <div class="darkgrey body-list">
+                <ul id="days">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
